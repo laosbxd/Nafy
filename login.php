@@ -23,7 +23,7 @@
 <div class="login">
 	<div class="loginbox">
 		<div class="top">
-			HoorayOS 桌面
+			Nafy
 		</div>
 		<form action="ajax.php" method="post" id="loginForm">
 			<input type="hidden" name="ac" value="login">
@@ -33,7 +33,7 @@
 				</div>
 				<div class="right">
 					<div class="input_box username">
-						<input type="input" name="username" id="username" autocomplete="off" placeholder="请输入用户名" tabindex="1" datatype="s6-18" nullmsg="请您输入用户名后再登录" errormsg="用户名长度为6-18个字符">
+						<input type="input" name="username" id="username" autocomplete="off" placeholder="用户" tabindex="1" datatype="s6-18" nullmsg="请输入用户名" errormsg="用户名长度为6-18个字符">
 						<a href="javascript:;" class="down" id="dropdown_btn"></a>
 						<div class="tip">
 							<div class="text">
@@ -42,11 +42,11 @@
 								<p></p>
 							</div>
 						</div> 
-						<button type="button" id="regiter_btn">注册账号</button>
+						<button type="button" id="regiter_btn">注册</button>
 						<div class="dropdown" id="dropdown_list"></div>
 					</div>
 					<div class="input_box password">
-						<input type="password" name="password" id="password" placeholder="请输入密码" tabindex="2" datatype="*6-18" nullmsg="请您输入密码后再登录" errormsg="密码长度在6~18位之间">
+						<input type="password" name="password" id="password" placeholder="密码" tabindex="2" datatype="*6-18" nullmsg="请您输入密码" errormsg="密码长度在6~18位之间">
 						<div class="tip">
 							<div class="text">
 								<span class="arrow">◆</span>
@@ -68,7 +68,7 @@
 			<div class="middle"> 
 				<div class="right all">
 					<div class="input_box username">
-						<input type="input" name="reg_username" id="reg_username" autocomplete="off" placeholder="请输入用户名" tabindex="1" datatype="s6-18" ajaxurl="ajax.php?ac=checkUsername" nullmsg="请输入用户名" errormsg="用户名长度为6-18个字符">
+						<input type="input" name="reg_username" id="reg_username" autocomplete="off" placeholder="用户名" tabindex="1" datatype="s6-18" ajaxurl="ajax.php?ac=checkUsername" nullmsg="请输入用户名" errormsg="用户名长度为6-18个字符">
 						<div class="tip">
 							<div class="text">
 								<span class="arrow">◆</span>
@@ -76,10 +76,10 @@
 								<p></p>
 							</div>
 						</div> 
-						<button type="button" id="backToLogin_btn">返回登录</button>
+						<button type="button" id="backToLogin_btn">返回</button>
 					</div>
 					<div class="input_box password">
-						<input type="password" name="reg_password" id="reg_password" placeholder="请输入密码" tabindex="2" datatype="*6-18" nullmsg="请输入密码" errormsg="密码长度在6~18位之间">
+						<input type="password" name="reg_password" id="reg_password" placeholder="密码" tabindex="2" datatype="*6-18" nullmsg="请输入密码" errormsg="密码长度在6~18位之间">
 						<div class="tip">
 							<div class="text">
 								<span class="arrow">◆</span>
@@ -89,7 +89,7 @@
 						</div> 
 					</div>
 					<div class="input_box password">
-						<input type="password" name="reg_checkpassword" id="reg_checkpassword" placeholder="请确认密码" tabindex="3" datatype="*" recheck="reg_password" nullmsg="请再输入一次密码" errormsg="两次输入的密码不一致">
+						<input type="password" name="reg_checkpassword" id="reg_checkpassword" placeholder="确认密码" tabindex="3" datatype="*" recheck="reg_password" nullmsg="请再输入一次密码" errormsg="两次输入的密码不一致">
 						<div class="tip">
 							<div class="text">
 								<span class="arrow">◆</span>
@@ -224,7 +224,7 @@ $(function(){
 			if(data.status == 'y'){
 				location.href = 'index.php';
 			}else{
-				alert('登录失败，请检查用户名或密码是否正确');
+				alert('登录失败');
 			}
 		}
 	});
