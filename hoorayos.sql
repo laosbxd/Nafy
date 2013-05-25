@@ -225,7 +225,7 @@ CREATE TABLE `tb_setting` (
 -- ----------------------------
 -- Records of tb_setting
 -- ----------------------------
-INSERT INTO `tb_setting` VALUES ('1', 'HoorayOS - 作者：胡尐睿丶 - 联系方式：304327508（QQ）hooray0905[at]foxmail.com（email）', 'HoorayOS是一套web桌面应用框架，你可以用它开发出类似于Q+web这类的桌面应用网站，也可以在它的基础上二次开发出适合项目的桌面式管理系统。', 'HoorayOS,web桌面,免费开源,桌面管理系统');
+INSERT INTO `tb_setting` VALUES ('1', 'Nafy Web OS', 'Nafy Web OS, Based by Hooray OS', '');
 
 -- ----------------------------
 -- Table structure for `tb_wallpaper`
