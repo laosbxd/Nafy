@@ -1,4 +1,4 @@
-/*
+﻿/*
 **  图标
 */
 HROS.app = (function(){
@@ -76,11 +76,11 @@ HROS.app = (function(){
 					$('#desk-' + j + ' li').remove();
 					$('#desk-' + j).append(desk_append);
 				}
-				//绑定'应用市场'图标点击事件
+				//绑定'Nafy App Store'图标点击事件
 				$('#desk').off('click').on('click', 'li.add', function(){
 					HROS.window.createTemp({
 						appid : 'hoorayos-yysc',
-						title : '应用市场',
+						title : 'Nafy App Store',
 						url : 'sysapp/appmarket/index.php',
 						width : 800,
 						height : 484,

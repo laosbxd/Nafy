@@ -10,7 +10,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>应用市场</title>
+<title>Nafy App Store</title>
 <?php include('sysapp/global_css.php'); ?>
 <link rel="stylesheet" href="../../img/ui/sys.css">
 </head>
@@ -39,33 +39,34 @@
 			</div>
 		</div>
 		<div class="mbox commend-day">
-			<h3>今日推荐</h3>
+			<h3>Nafy App Store</h3>
 			<div class="commend-container">
-				<a href="?ct=app&amp;ac=show&amp;app_id=192">
+				<!--<a href="?ct=app&amp;ac=show&amp;app_id=192">-->
 					<!--img src="http://open.115.com/static/uploads/ico/2012021316591511928.png" alt="图吧地图"-->			
-				</a>
+				<!--</a>-->
 			</div>
 			<div class="commend-text">
 				<h4>
-					<strong>图吧地图</strong>
-					<span>33593人在用</span>				
+					<strong>Nafy</strong>
+					<span><a href="http://nafy.lasteam.tk/">nafy.lasteam.tk</a></span>				
 				</h4>
 				<div class="con">
-					图吧地图是国内最大的在线电子地图及无线地图服务提供商，市场占有率超过80％。图吧地图（map）为互联网和手机用户提供地图搜索、位置查询和公交，驾车线路等交通规划服务，为行业客户提供GIS行业应用解决方案和地图API产品，同时为中小企业客户提供推广必备的地图标注产品。				
+					当前Nafy仍处于Pre-alpha阶段，不建议日常使用。				
 				</div>
-				<a href="javascript:;" app_id="192" class="btn-add">添加应用</a>
+				<!--<a href="javascript:;" app_id="192" class="btn-add">添加应用</a>-->
 			</div>
 			<span class="star-box"><i style="width:68%;"></i></span>
 		</div>
 		<div class="mbox commend-day">
 			<h3>我也要开发应用</h3>
+			<p>暂未开放接口给予提供者。
 		</div>
 	</div>
 	<div class="col-main">
 		<div class="mbox app-list-box">
 			<div class="title">
 				<ul>
-					<li class="focus" value="1"><a href="javascript:;">最新应用</a></li>
+					<li class="focus" value="1"><a href="javascript:;">最新</a></li>
 					<li value="2"><a href="javascript:;">最热门</a></li>
 					<li value="3"><a href="javascript:;">最高评价</a></li>
 					<input type="hidden" name="search_2" id="search_2" value="1">
