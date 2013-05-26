@@ -2,7 +2,7 @@
 /* lhgdialog : http://bbs.lhgcore.com/lhg4/index.html */
 
 /*窗口*/
-.window-container{border-radius:3px;border:1px solid #666;background:#6E6E6E}
+.window-container{border-radius:5px;border:1px solid #666;background:#6E6E6E}
 /*当前窗口*/
 .window-current{background:#6E6E6E}
 /*标题*/
