@@ -1,4 +1,4 @@
-/*
+﻿/*
 Navicat MySQL Data Transfer
 
 Source Server         : localhost_3306
@@ -135,7 +135,7 @@ CREATE TABLE `tb_member` (
   `wallpaper_id` int(11) DEFAULT '1',
   `wallpaperwebsite` text COLLATE utf8_unicode_ci,
   `wallpaperstate` tinyint(4) DEFAULT '1' COMMENT '1系统壁纸、2自定义壁纸、3网络地址',
-  `wallpapertype` varchar(255) COLLATE utf8_unicode_ci DEFAULT 'juzhong' COMMENT '壁纸显示方式：tianchong,shiying,pingpu,lashen,juzhong',
+  `wallpapertype` varchar(255) COLLATE utf8_unicode_ci DEFAULT 'lashen' COMMENT '壁纸显示方式：tianchong,shiying,pingpu,lashen,juzhong',
   `skin` varchar(255) COLLATE utf8_unicode_ci DEFAULT 'default' COMMENT '窗口皮肤',
   `regdt` datetime DEFAULT NULL COMMENT '注册时间',
   `lastlogindt` datetime DEFAULT NULL COMMENT '最后登入时间',
@@ -146,7 +146,7 @@ CREATE TABLE `tb_member` (
 -- ----------------------------
 -- Records of tb_member
 -- ----------------------------
-INSERT INTO `tb_member` VALUES ('1', 'hoorayos', 'c5e9fe42f061fa6102857db920734c33ec7b0816', '1', '1', '', null, null, '', '', '', 'x', 'top', '1', null, '1', 'shiying', 'default', '2012-02-29 00:00:00', '2012-12-09 23:13:40', '');
+INSERT INTO `tb_member` VALUES ('1', 'nafywebos', '1EF0DA5551A589ABD823E4DBC7FA6FE0FAD879C0', '1', '1', '', null, null, '', '', '', 'x', 'top', '1', null, '1', 'lashen', 'mac', '2012-02-29 00:00:00', '2012-12-09 23:13:40', '');
 
 -- ----------------------------
 -- Table structure for `tb_member_app`

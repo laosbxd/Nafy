@@ -1,0 +1,1 @@
+copy d:\GitHub\Nafy D:\xampp\htdocs\nafy

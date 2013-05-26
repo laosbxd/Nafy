@@ -70,9 +70,9 @@ $errorcode = array(
 
 //数据库连接配置信息
 $db_hoorayos_config = array(
-	'dsn'=>'mysql:host=localhost;dbname=hoorayos',
+	'dsn'=>'mysql:host=localhost;dbname=nafy',
 	'name'=>'root',
-	'password'=>''
+	'password'=>'xxxx'
 );
 
 //创建数据库连接
