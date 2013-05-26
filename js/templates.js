@@ -1,4 +1,4 @@
-//桌面图标
+﻿//桌面图标
 var appbtnTemp = template(
 	'<li class="appbtn" type="<%=type%>" id="<%=id%>" appid="<%=appid%>" style="top:<%=top%>px;left:<%=left%>px">'+
 		'<div><img src="<%=imgsrc%>" title="<%=title%>" alt="<%=title%>"></div>'+
@@ -9,7 +9,7 @@ var appbtnTemp = template(
 var addbtnTemp = template(
 	'<li class="appbtn add" style="top:<%=top%>px;left:<%=left%>px">'+
 		'<i class="addicon"></i>'+
-		'<span>添加应用</span>'+
+		'<span>Nafy App Store</span>'+
 	'</li>'
 );
 //任务栏
@@ -214,8 +214,8 @@ var helpTemp = template(
 		'<a href="javascript:;" class="close" title="关闭新手帮助">×</a>'+
 		'<div id="step1" class="step" step="1" style="position:relative;left:50%;top:50%;margin-left:-160px;margin-top:-60px;width:280px;height:100px">'+
 			'<p style="text-align:center">'+
-				'<span class="h2">欢迎使用HoorayOS</span>'+
-				'<br>下面我会简单介绍下如何使用，以便你快速上手<br>'+
+				'<span class="h2">欢迎使用Nafy Web OS</span>'+
+				'<br>下面简单介绍下如何使用，以便你快速上手<br>'+
 				'<a href="javascript:;" class="next">下一步</a>'+
 			'</p>'+
 		'</div>'+
@@ -223,14 +223,14 @@ var helpTemp = template(
 			'<b class="jt jt_left" style="left:-40px;top:20px"></b>'+
 			'<p>'+
 				'<span class="h1">①</span><span class="h2">桌面</span>'+
-				'<br>可以在应用中心添加自己需要的应用到桌面<br>'+
+				'<br>可以在Nafy App Store添加自己需要的应用到桌面<br>'+
 				'<a href="javascript:;" class="next">下一步</a>'+
 			'</p>'+
 		'</div>'+
 		'<div id="step3" class="step" step="3" style="top:90px;left:550px;width:250px">'+
 			'<b class="jt jt_top" style="top:-40px;left:30px"></b>'+
 			'<p>'+
-				'<span class="h1">②</span><span class="h2">应用码头</span>'+
+				'<span class="h1">②</span><span class="h2">Dock</span>'+
 				'<br>可以将桌面图标拖放到这<br>'+
 				'<a href="javascript:;" class="next">下一步</a>'+
 			'</p>'+

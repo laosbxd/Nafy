@@ -1,11 +1,11 @@
-/*
+﻿/*
 **  HoorayOS开源桌面应用框架
 **  作者：胡尐睿丶
 **  地址：http://hoorayos.com
 **  我希望能将这项目继续开源下去，所以请手下留情，保留以上这段版权信息，授权用户可删除代码中任何信息
 */
 
-var version   = '2.1.1';        //版本号
+var version   = '2.0 Pre-alpha';        //版本号
 var ajaxUrl   = 'ajax.php';     //所有ajax操作指向页面
 var zoomlevel = 1;
 var TEMP      = {};
