@@ -1,2 +1,2 @@
-xcopy d:\GitHub\Nafy D:\xampp\htdocs\nafy /E
-pause
+xcopy d:\GitHub\Nafy %1 /E
+delete %1\.git\
